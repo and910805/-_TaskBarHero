@@ -11,7 +11,9 @@
 
 >本專案成功繞過 Anti-Cheat Toolkit 保護機制，並實現遊戲金幣資料的篡改驗證。但本研究純粹作為二進位安全與逆向工程用途，因此底下僅會針對底層觀念與框架概念進行技術沉澱，本專案不提供可直接套用到特定商業遊戲的完整 Cheat Table、固定記憶體位址、可重現的繞過腳本或自動化濫用流程。
 >下面文字資訊由AI整理順的語句產出。
-![image](https://hackmd.io/_uploads/HyKsQ6KeMg.png)
+
+<img width="461" height="152" alt="image" src="https://github.com/user-attachments/assets/62085a03-c6bb-45dd-b049-4eb51b04ff4b" />
+
 
 **Anti-Cheat Toolkit 可以拿來幹什麼？**
 
@@ -84,7 +86,8 @@ Il2CppDumper 常見輸出之一是 `dump.cs`。這個檔案看起來像 C#，但
 - 部分 generic type 與 nested type 資訊
 
 閱讀 `dump.cs` 時，應把它視為索引與地圖，而不是可編譯的程式碼。真正的邏輯仍需要回到 Native disassembly 或 runtime 行為中確認。
-![image](https://hackmd.io/_uploads/SyJNXatlfg.png)
+<img width="718" height="372" alt="image" src="https://github.com/user-attachments/assets/bd8860a1-184a-4598-9544-bd8d482c0538" />
+
 
 ### Static Analysis Goals
 
