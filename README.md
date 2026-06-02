@@ -56,7 +56,6 @@ Unity 專案若使用 IL2CPP 後端，原本的 C# IL 會被轉換成 C++，再�
 | Il2CppDumper | 從 IL2CPP binary 與 metadata 還原類別、方法與欄位結構 |
 | Cheat Engine | 動態記憶體觀察、斷點追蹤、反組譯與暫存器狀態分析 |
 | Ghidra / IDA Free | 靜態反組譯、交叉引用追蹤與控制流程閱讀 |
-| VS Code | 閱讀 `dump.cs`、整理筆記與比對結構 |
 | Wireshark / Burp Suite | 後續可用於網路層行為觀察與封包邊界分析 |
 
 
